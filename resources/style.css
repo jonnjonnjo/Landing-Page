@@ -2,10 +2,9 @@
 
 *{
     box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 0, 153);
-    
 }
 
 
@@ -13,7 +12,7 @@ li,a,button {
     font-family: "Montserrat",sans-serif;
     font-weight: 500;
     font-size:16px;
-    color: rgb(255, 128, 0);
+    color: #42eff5;
     text-decoration: none;
 }
 
@@ -22,6 +21,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: #f5ad42;
 }
 
 .navigationlinks{
@@ -55,3 +55,25 @@ button{
     width: 84px;
     height: 84px;
 }
+
+.introduction{
+    display: flex;
+    padding: 90px;
+    background-color: #f2f542;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction-text{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.introduction-text h1{
+    font-size: 100;
+
+}
+
