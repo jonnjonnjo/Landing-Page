@@ -51,11 +51,7 @@ button{
     transition: all 0.3s ease 0s;
 }
 
-.logo{
-    background-color: transparent;
-}
-
-.logo img{
-    background-color: red;
-    opacity: 0.5;
+.logo {
+    width: 84px;
+    height: 84px;
 }
